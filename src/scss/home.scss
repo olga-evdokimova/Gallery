@@ -1,0 +1,32 @@
+//====================================================================================================
+
+.gallery {
+    // height: 100vh;
+    &__slider {
+    }
+    &__wrapper {
+        position: absolute;
+       // top: 100px;
+    }
+    &__slide {
+        // &:last-child(1){
+        //     margin-right: 40px;
+        // }
+    }
+  
+    &__image {
+        width: 500px;
+        height: 800px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+span {
+    font-size: rem(24);
+    min-height: 40px;
+    width: rem(400);
+    font-style: italic;
+    padding-right: 10px;
+}
+//====================================================================================================
