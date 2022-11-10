@@ -1,9 +1,6 @@
 //====================================================================================================
 
 .gallery {
-    // height: 100vh;
-    &__slider {
-    }
     &__wrapper {
         padding-left: 250px;
         height: 100vh;
@@ -13,16 +10,19 @@
         flex-wrap: nowrap;
         overflow: auto;
     }
-    &__slide {
-        width: 400px;
-        height: 700px;
-    }
 
     &__image {
-        // overflow: hidden;
+        overflow: hidden;
         // object-fit: cover;
+        position: relative;
+        width: auto;
+        height: 700px;
         img {
+            position: absolute;
+            top: 0;
+            left: 0;
             max-width: 100%;
+            // height: 100%;
         }
     }
 }
