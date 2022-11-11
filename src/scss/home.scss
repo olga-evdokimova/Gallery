@@ -4,21 +4,19 @@
     &__wrapper {
         padding-left: 250px;
         height: 100vh;
+        display: flex;
         align-items: center;
         gap: 5px;
-        display: flex;
         flex-wrap: nowrap;
         overflow: auto;
     }
 
     &__image {
-   
-       height: 700px;
+        height: calc(100vh - 20vh);
         img {
             width: auto;
-            // max-width: 100%;
-           height: 100%;
-             object-fit: cover;
+            height: 100%;
+            object-fit: cover;
         }
     }
 }
@@ -26,8 +24,8 @@ span {
     display: block;
     font-size: rem(24);
     min-height: 50px;
-    //width: rem(400);
     font-style: italic;
     padding-right: 10px;
 }
+
 //====================================================================================================

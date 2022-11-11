@@ -2,20 +2,19 @@
 .header {
 	position: fixed;
 	top: 0;
-	// z-index: 2;
-	height: 100vh;
+	height: calc(100vh - 2vh);
 	width: 200px;
 	padding: 0 14px;
 	left: 50px;
-	background-color:#fff;
+	background-color: #fff;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	&__inner {
-		height: 700px;
+		   height: calc(100vh - 20vh);
 	}
 	&__title {
-		font-size: rem(18);
+		font-size: rem(15);
 		color: #101010;
 		font-weight: bold;
 		padding-bottom: rem(30);
@@ -23,19 +22,29 @@
 }
 .nav {
 	&__list {
-	}
-	&__item {
-	}
-	&__link {
+		li {
+			text-transform: uppercase;
+			padding-bottom: rem(10);
+			font-size: rem(12);
+		}
 	}
 }
 .cocial {
 	&__insta {
+		padding-right: rem(5);
 	}
 	&__telegram {
+		
 	}
 }
-
+.footer {
+	font-size: rem(11);
+	padding: rem(20) 0;
+}
+svg {
+	width: 15px;
+	height: 15px;
+}
 //====================================================================================================
 
 //Burger
