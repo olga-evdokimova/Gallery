@@ -22,10 +22,10 @@
 }
 span {
     display: block;
-    font-size: rem(24);
-    min-height: 50px;
+    font-size: rem(14);
+   // min-height: rem(24);
     font-style: italic;
-    padding-right: 10px;
+    padding: rem(10) rem(10) 0 0 ;
 }
 
 //====================================================================================================
