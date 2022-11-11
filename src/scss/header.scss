@@ -7,12 +7,18 @@
 	width: 200px;
 	padding: 0 14px;
 	left: 50px;
-	background-color: rgb(234, 181, 181);
+	background-color:#fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	&__inner {
-		
-	
+		height: 700px;
 	}
 	&__title {
+		font-size: rem(18);
+		color: #101010;
+		font-weight: bold;
+		padding-bottom: rem(30);
 	}
 }
 .nav {
